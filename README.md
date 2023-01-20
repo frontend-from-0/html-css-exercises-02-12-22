@@ -7,4 +7,4 @@ Every student get's a folder with his/her name in an exercise directory, all wor
 Submit your work by creating a feature branch and a pull request.
 
 1. Pricing page Exercise
-The exercise goal is to recreat this page https://getbootstrap.com/docs/4.0/examples/pricing/ using flexbox
+The exercise goal is to recreate this page https://getbootstrap.com/docs/4.0/examples/pricing/ using flexbox
