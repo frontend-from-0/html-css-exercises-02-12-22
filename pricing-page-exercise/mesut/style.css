@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 65px;
+}
+
+.top-right-links{
+    display: flex;
+    
+}
+.top-right-button{
+    display: flex;
+    list-style:none;
+    padding: 0;
+    align-items: flex-end;
+}
+
+.company-name{
+    display: flex;
+}
+.trl{
+    padding: 5px;
+}
