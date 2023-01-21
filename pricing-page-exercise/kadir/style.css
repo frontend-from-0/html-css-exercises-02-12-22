@@ -1,0 +1,104 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    min-width: 10vw;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Background-color: #F1F2F3;
+}
+
+user agent stylesheet
+head {
+    display: none;
+}
+<style>
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+<style>
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+<style>
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+html {
+    font-size: 14px;
+    font-family: "Segoe UI Adjusted","Segoe UI","Liberation Sans",sans-serif;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.button-container {
+    width: 300px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+#robot {
+    width: 25px;
+    height: 25px;
+    margin: 15px 12px 0 0;
+    outline: 1px solid #e6e6eb;
+    cursor: pointer;
+}
+
+.robot {
+    width: 180px;
+    height: 160px;
+    color: #474852;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 10px 15px 10px;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #DCDFE1;
+    border-radius: 3px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 1px 1px 0px, rgb(0 0 0 / 5%) 2px 4px 12px 0px, rgb(0 0 0 / 10%) 1px 2px 4px 0px;
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
