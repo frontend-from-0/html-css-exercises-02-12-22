@@ -24,26 +24,31 @@
   </nav>
   <div class="container">
     <div class="pricing">
-      <h1>Pricing</h1>
-      <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built
+      <h1 class="pricing-header">Pricing</h1>
+      <p class="pricing-text">Quickly build an effective pricing table for your potential customers with this Bootstrap
+        example. It's built
         with default Bootstrap components and utilities with little customization.</p>
     </div>
     <div class="cards">
-      <div class="free">
-        <h2 class="free-h2">Free</h2>
-        <h3 class="free-h3">$0 / mo</h3>
-        <ul class="free-sub">
-          <li class="card-text">10 users included</li>
-          <li class="card-text">2 GB of storage</li>
-          <li class="card-text">Email support</li>
-          <li class="card-text">Help center access</li>
-        </ul>
-        <a href="#" class="price-button-white">Sign up for free</a>
+      <div class="free card">
+        <h2 class="free-h2 subscription-type">Free</h2>
+        <div class="price-and-text">
+          <h3 class="free-h3 subscription-price"><span class="dollar">$0 </span><span class="month">/ mo</span></h3>
+          <ul class="free-sub card-list">
+            <li class="card-text">10 users included</li>
+            <li class="card-text">2 GB of storage</li>
+            <li class="card-text">Email support</li>
+            <li class="card-text">Help center access</li>
+          </ul>
+        
       </div>
-      <div class="pro">
-        <h2 class="pro-h2">Pro</h2>
-        <h3 class="pro-h3">$15 / mo</h3>
-        <ul class="pro-sub">
+      <div><a href="#" class="price-button-white">Sign up for free</a></div>
+      </div>
+      <div class="pro card">
+        <h2 class="pro-h2 subscription-type">Pro</h2>
+        <div class="price-and-text">
+        <h3 class="pro-h3 subscription-price"><span class="dollar">$15 </span><span class="month">/ mo</span></h3>
+        <ul class="pro-sub card-list">
           <li class="card-text">20 users included</li>
           <li class="card-text">10 GB of storage</li>
           <li class="card-text">Priority email support</li>
@@ -51,16 +56,19 @@
         </ul>
         <a href="#" class="price-button-blue"> Get started</a>
       </div>
-      <div class="enterprise">
-        <h2 class="pro-h2">Enterprise</h2>
-        <h3 class="pro-h3">$29 / mo</h3>
-        <ul class="enterprise-sub">
+      </div>
+      <div class="enterprise card">
+        <h2 class="enterprise-h2 subscription-type">Enterprise</h2>
+        <div class="price-and-text">
+        <h3 class="enterprise-h3 subscription-price"><span class="dollar">$29 </span><span class="month"></span></h3>
+        <ul class="enterprise-sub card-list">
           <li class="card-text">30 users included</li>
           <li class="card-text">15 GB of storage</li>
           <li class="card-text">Phone and email support</li>
           <li class="card-text">Help center access</li>
         </ul>
         <a href="#" class="price-button-blue">Contact us</a>
+      </div>
       </div>
     </div>
     <div class="extras">
