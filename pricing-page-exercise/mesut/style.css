@@ -127,6 +127,7 @@ body {
     margin: 20px;
     width: 33%;
     border-radius: 5px;
+    box-shadow: 0 1px 5px #00000013;
 }
 
 .card-list {
@@ -170,19 +171,104 @@ body {
 }
 
 .price-button-white{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
+    color: #007bff;
+    background-color: #ffffff;
     width: 90%;
     border: 1px solid #007BFF;
     padding: 10px;
-    margin: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.price-button-white:visited{
+    color: #007BFF;
+
+}
+
+.price-button-white:hover{
+    background-color:#007BFF ;
+    color: #ffffff;
+    transition: 0.3s;
 }
 
 .price-button-blue{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
+    color: #ffffff;
     width: 90%;
     border: 1px solid #007BFF;
     padding: 10px;
-    margin: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #007BFF;
+}
+
+
+.price-button-blue:visited{
+    color: #ffffff;
+
+}
+
+.price-button-blue:hover{
+    background-color:#0064cf ;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.extras{
+    display: flex;
+    justify-content:center;
+    margin: 50px 10px;
+    border: 20px 10px;
+    border-top: 1px solid #DEE2E6;
+}
+
+.bottom-list{
+    padding: 0 10px;
+    width: 25%;
+}
+
+.extras-heading{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.extras-list{
+    padding: 0;
+    margin: 0;
+}
+
+.extras-link{
+    list-style-type: none;
+     
+}
+
+.extras-text{
+    text-decoration: none;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.extras-text:visited{
+    color: #6c757d;
+    
+}
+
+.extras-text:hover{
+    text-decoration: underline;
+}
+
+.bsicon{
+    margin-top: 25px;
+}
+
+.bootstrap-year{
+    margin: 8px 0;
 }
