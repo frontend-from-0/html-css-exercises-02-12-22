@@ -6,26 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="style.css" />
-    <script></script>
+    <script src="https://kit.fontawesome.com/5e08b15075.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <div class="navbar">
         <div class="navbar-links">
           <div class="navbar-right">
-            <div class="options">
-              <ul>
-                Features
-              </ul>
-              <ul>
-                Enterprise
-              </ul>
-              <ul>
-                Support
-              </ul>
-              <ul>
-                Pricing
-              </ul>
+            <ul class="options">
+              <li class="options-right"><a href="#">Features</a></li>
+              <li class="options-right"><a href="#">Enterprise</a></li>
+              <li class="options-right"><a href="#">Support</a></li>
+              <li class="options-right"><a href="#">Pricing</a></li>
             </div>
             <div class="signup"><a href="https://getbootstrap.com/docs/4.0/examples/pricing/#">Sign up</a></div>
           </div>
@@ -35,7 +27,44 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="pricing-container">
+        <div class="pricing">
+          <div class="main-title">
+            <h>Pricing</h>
+          </div>
+          <div class="main-text">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</div>
+        </div>
+        <div class="pricing-cards">
+          <div class="free">
+            <h class="plan-name">Free</h>
+            <p class="plan-price">$0 / mo</p>
+            <li class="plan-details">10 users included</li>
+            <li class="plan-details">2 GB of storage</li>
+            <li class="plan-details">Email support</li>
+            <li class="plan-details">Help center access</li>
+            <div class="price-button"><a href="#" >Sign up for free</a>
+          </div>
+          <div class="pro">
+            <h class="plan-name">Pro</h>
+            <p class="plan-price">$15 / mo</p>
+            <li class="plan-details">20 users included</li>
+            <li class="plan-details">10 GB of storage</li>
+            <li class="plan-details">Priority email support</li>
+            <li class="plan-details">Help center access</li>
+            <a class="price-button" href="">Sign up for free</a>
+          </div>
+          <div class="enterprise">
+            <h class="plan-name">Enterprise</h>
+            <p class="plan-price">$29 / mo</p>
+            <li class="plan-details">30 users included</li>
+            <li class="plan-details">15 GB of storage</li>
+            <li class="plan-details">Phone and email support</li>
+            <li class="plan-details">Help center access</li>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
