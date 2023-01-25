@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    
+
 }
 
 
@@ -56,22 +56,13 @@ body {
 }
 
 
-.navbar-right > ul:visited {
+.navbar-right>ul:visited {
     color: #bd2b2b;
 }
 
-.features-button:hover {
-    text-decoration: underline;
-}
-
-.enterprise-button:hover {
-    text-decoration: underline;
-}
-
-.support-button:hover {
-    text-decoration: underline;
-}
-
+.features-button:hover,
+.enterprise-button:hover,
+.support-button:hover,
 .pricing-button:hover {
     text-decoration: underline;
 }
@@ -117,18 +108,18 @@ body {
     font-size: 20px;
     font-weight: 100;
     line-height: 30px;
-    padding: 0 50px;
+    padding: 0 15px;
 }
 
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .card {
     border: 1px solid #DFDFDF;
     text-align: center;
-    width: 33%;
+    flex: 1;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 1px 5px #00000013;
@@ -139,13 +130,13 @@ body {
 }
 
 .subscription-type {
-    width: 100%;
+
     border-bottom: 1px solid #DFDFDF;
     margin: 0;
     padding: 10px 0;
     background-color: #F7F7F7;
     font-weight: 400;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-text {
@@ -175,52 +166,50 @@ body {
     font-weight: 400;
 }
 
-.price-button-white {
+.pb-white {
+    color: #007bff;
+    background-color: #ffffff;
+    border: 1px solid #007BFF;
+
+}
+
+.pb-blue {
+    color: #ffffff;
+    border: 1px solid #007BFF;
+    background-color: #007BFF;
+}
+
+.price-button {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: #007bff;
-    background-color: #ffffff;
     width: 90%;
-    border: 1px solid #007BFF;
     padding: 10px;
     margin: 20px auto;
     font-size: 20px;
     border-radius: 5px;
 }
 
-.price-button-white:visited {
+
+.pb-white:visited {
     color: #007BFF;
 
 }
 
-.price-button-white:hover {
+.pb-white:hover {
     background-color: #007BFF;
     color: #ffffff;
     transition: 0.3s;
 }
 
-.price-button-blue {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: #ffffff;
-    width: 90%;
-    border: 1px solid #007BFF;
-    padding: 10px;
-    margin: 20px auto;
-    font-size: 20px;
-    border-radius: 5px;
-    background-color: #007BFF;
-}
 
 
-.price-button-blue:visited {
+.pb-blue:visited {
     color: #ffffff;
 
 }
 
-.price-button-blue:hover {
+.pb-blue:hover {
     background-color: #0064cf;
     color: #ffffff;
     transition: 0.3s;
@@ -229,7 +218,6 @@ body {
 .extras {
     display: flex;
     justify-content: center;
-    
     margin: 50px 10px;
     border: 20px 10px;
     border-top: 1px solid #DEE2E6;
@@ -238,7 +226,7 @@ body {
 .bottom-list {
     margin: 0 auto;
     padding: 0 10px;
-    width: 25%;
+    flex: 1;
 }
 
 .extras-heading {
@@ -300,7 +288,7 @@ body {
     }
 
 
-    .navbar-right > ul {
+    .navbar-right>ul {
         justify-content: center;
         margin: 0;
     }
