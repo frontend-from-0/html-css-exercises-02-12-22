@@ -1,0 +1,24 @@
+/* 
+  Media query syntax
+
+  @media media type and (condition: breakpoint) {
+    // CSS rules
+  }
+
+  Media types
+
+  all — for all media types
+  print — for printers
+  screen — for computer screens, tablets and, smart-phones
+  speech — for screen readers that “read” the page out loud
+
+  Common break points
+
+  320px — 480px: Mobile devices
+  481px — 768px: iPads, Tablets
+  769px — 1024px: Small screens, laptops
+  1025px — 1200px: Desktops, large screens
+  1201px and more —  Extra large screens, TV
+
+  Let's use 768px and 1200px in the lesson, you can use more specific breakpoints at home!
+*/
