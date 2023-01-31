@@ -1,9 +1,88 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    margin:0;
+body {
+  margin: 0;
 }
-.navbar-container{
-    
+.navbar-container {
+  height: 200px;
+  width: 100%;
+  border: 1px solid blueviolet;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+}
+.navbar-links {
+  text-decoration: none;
+}
+.navbar-left {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar-right {
+}
+.options {
+  list-style: none;
+  justify-content: flex-end;
+  display: flex;
+  gap: 30px;
+}
+.options-right {
+  text-decoration: none;
+}
+.signup {
+  display: inline-block;
+  text-decoration: none;
+  width: 80px;
+  height: 40px;
+  border: 1px solid rgb(15, 153, 228);
+  border-radius: 5px;
+  color: rgb(26, 159, 231);
+  text-align: center;
+  vertical-align: center;
+}
+.pricing-container {
+  border: 1px solid black;
+  height: 650px;
+  width: 80%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+.pricing {
+  position: center;
+  text-align: center;
+  height: 200px;
+  width: 80%;
+  align-items: center;
+}
+.main-title {
+  font-size: 20px;
+}
+.main-text {
+  font-size: 14px;
+}
+.pricing-card-container {
+  border: 1px solid black;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.free.pro.enterprise {
+  width: 80%;
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  align-content: center;
 }
