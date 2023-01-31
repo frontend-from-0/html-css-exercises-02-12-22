@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  font-family:
 }
 .navbar-container {
   height: 200px;
@@ -16,13 +17,19 @@ body {
   text-decoration: none;
 }
 .navbar-left {
+  display:flex;
   height: fit-content;
   width: fit-content;
   border: 1px solid black;
   display: flex;
   justify-content: flex-start;
+  align-items:center;
+}
+.company-logo{
+  align-items:center;
 }
 .navbar-right {
+  justify-content: space-between;
 }
 .options {
   list-style: none;
@@ -43,6 +50,7 @@ body {
   color: rgb(26, 159, 231);
   text-align: center;
   vertical-align: center;
+  padding-top: 5px;
 }
 .pricing-container {
   border: 1px solid black;
