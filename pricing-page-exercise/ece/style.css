@@ -3,39 +3,47 @@
 }
 body {
   margin: 0;
-  font-family:
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar-container {
-  height: 200px;
+  height: 70px;
   width: 100%;
-  border: 1px solid blueviolet;
-  border-width: 1px;
+  border-bottom: 1px solid #74787c;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .navbar-links {
   text-decoration: none;
 }
 .navbar-left {
-  display:flex;
-  height: fit-content;
-  width: fit-content;
-  border: 1px solid black;
   display: flex;
   justify-content: flex-start;
-  align-items:center;
+  border: 1px solid black;
+  padding: 10px 10px;
+  display: flex;
+  align-items: flex-start;
 }
-.company-logo{
-  align-items:center;
+.company-logo {
+  align-items: flex-start;
 }
 .navbar-right {
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.navbar-links {
+  color: #74787c;
 }
 .options {
   list-style: none;
   justify-content: flex-end;
   display: flex;
+  align-items: center;
   gap: 30px;
+  font-size: 16px;
 }
 .options-right {
   text-decoration: none;
@@ -45,12 +53,16 @@ body {
   text-decoration: none;
   width: 80px;
   height: 40px;
-  border: 1px solid rgb(15, 153, 228);
+  border: 1.5px solid #007bff;
   border-radius: 5px;
-  color: rgb(26, 159, 231);
+  color: #007bff;
   text-align: center;
   vertical-align: center;
   padding-top: 5px;
+}
+.header-divider {
+  width: max-content;
+  height: 2px;
 }
 .pricing-container {
   border: 1px solid black;
@@ -93,4 +105,23 @@ body {
   justify-content: center;
   text-align: justify;
   align-content: center;
+}
+
+.blue-button {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  padding:10px;
+  width:245px;
+  height:45px;
+}
+.white-button {
+  background-color: aliceblue;
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 3px;
+  padding:10px;
+  width:245px;
+  height:45px;
 }
