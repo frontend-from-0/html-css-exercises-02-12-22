@@ -22,6 +22,9 @@
 
   Let's use 768px and 1200px in the lesson, you can use more specific breakpoints at home!
 */
+:root{
+  --yellow:#BADA55;
+}
 
 @media all and (max-width:480px){
 
