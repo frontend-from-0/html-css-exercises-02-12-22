@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+  }
+  
+  body {
+    background-color: #f1f2f3;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #006c67;
+  }
+  .sidebar-left {
+    background-color: #003844;
+  }
+  .sidebar-right {
+    background-color: #ffb100;
+  }
+  .content {
+    background-color: #ffebc6;
+  }
+  .footer {
+    background-color: #006c67;
+  }
+  
+  .content > div {
+    height: 300px;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
