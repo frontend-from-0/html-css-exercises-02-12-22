@@ -95,7 +95,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.free.pro.enterprise {
+.free, .pro, .enterprise {
   width: 330px;
   height: 290px;
   border: 1px solid red;
