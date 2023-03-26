@@ -8,3 +8,8 @@ Submit your work by creating a feature branch and a pull request.
 
 ## 1. Pricing page exercise
 The exercise goal is to recreate this page https://getbootstrap.com/docs/4.0/examples/pricing/ using flexbox
+
+## 2. Media queries & CSS GRID exercise 
+The exercise goal is to recreate this page https://ojd2uv.csb.app/ using media queries and css grid
+
+
