@@ -22,3 +22,150 @@
 
   Let's use 768px and 1200px in the lesson, you can use more specific breakpoints at home!
 */
+:root{
+  --yellow:#BADA55;
+}
+
+@media all and (max-width:480px){
+
+.container{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 60px 1fr 100px;
+}
+
+.sidebar{
+  display:none;
+}
+}
+
+@media all and (min-width:481px) and (max-width:768px){
+
+  .container{
+    grid-template-rows: 60px 1fr 200px;
+    grid-template-areas: 
+    'header'
+    'content'
+    'footer';
+  }
+    
+  .sidebar{
+    display:none;
+  } 
+  
+.header{
+  grid-area: header;
+} 
+
+.content{
+  grid-area: content;
+} 
+
+.footer{
+  grid-area: footer;
+} 
+}
+
+@media all and (min-width:769px) and (max-width:1024px){
+
+  .container{
+    display: grid;
+    grid-template-columns: 100px 1fr 70px;
+    grid-template-rows: 60px 1fr 200px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar-left content sidebar-right"
+    "footer footer footer";
+  }
+
+  .header{
+    grid-area: header;
+  } 
+  
+  .content{
+    grid-area: content;
+  } 
+  
+  .footer{
+    grid-area: footer;
+  } 
+
+  .sidebar-left{
+    grid-area: sidebar-left;
+  } 
+
+  .sidebar-right{
+    grid-area: sidebar-right;
+  } 
+
+
+}
+
+@media all and (min-width:1025px) and (max-width:1200px){
+
+
+  .container{
+    display: grid;
+    grid-template-columns: 100px 1fr 70px;
+    grid-template-rows: 100px 1fr 250px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar-left content sidebar-right"
+    "sidebar-left footer footer";
+  }
+    
+  .header{
+    grid-area: header;
+  } 
+  
+  .content{
+    grid-area: content;
+  } 
+  
+  .footer{
+    grid-area: footer;
+  } 
+
+  .sidebar-left{
+    grid-area: sidebar-left;
+  } 
+
+  .sidebar-right{
+    grid-area: sidebar-right;
+  } 
+
+}
+
+@media all and (min-width:1201px){
+ 
+  .container{
+    display: grid;
+    grid-template-columns: 150px 1fr 100px;
+    grid-template-rows: 150px 1fr 300px;
+    grid-template-areas: 
+    'header header header'
+    'sidebar-left content sidebar-right'
+    'sidebar-left footer footer';
+  }
+
+  .header{
+    grid-area: header;
+  } 
+  
+  .content{
+    grid-area: content;
+  } 
+  
+  .footer{
+    grid-area: footer;
+  } 
+
+  .sidebar-left{
+    grid-area: sidebar-left;
+  } 
+
+  .sidebar-right{
+    grid-area: sidebar-right;
+  } 
+  
+}
